@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Investigación - Pág Leví</title>
-</head>
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         body {
             background-color: #f8f9fa;
             color: #343a40;
         }
+        .container {
+            margin-top: 20px;
+        }
     </style>
 </head>
-
 <body>
     <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
         <div class="container-fluid">
@@ -36,6 +37,29 @@
             </div>
         </div>
     </nav>
-    
+
+    <div class="container">        
+        <h2>¿Qué son y para qué sirven las normas internacionales?</h2>
+        <p>Las normas internacionales son estándares globales desarrollados por organizaciones de normalización como la ISO (Organización Internacional de Normalización) o IEEE (Instituto de Ingenieros Eléctricos y Electrónicos). Aseguran que los productos y servicios sean compatibles, seguros y eficientes en todo el mundo.</p>
+        <p><strong>Ejemplo en redes informáticas:</strong> <code>IEEE 802.3</code> (estándar para Ethernet) define cómo se deben transmitir los datos a través de redes Ethernet, asegurando la interoperabilidad entre dispositivos de diferentes fabricantes.</p>
+        
+        <h2>Diferentes topologías, categorías y modelos de red</h2>
+        <ul>
+            <li><strong>Topología en Estrella:</strong> Todos los dispositivos están conectados a un hub o switch central. Ofrece alta disponibilidad y es fácil de gestionar.</li>
+            <li><strong>Topología en Bus:</strong> Todos los dispositivos están conectados a un solo cable central. Es económica pero puede ser menos confiable si el cable principal falla.</li>
+            <li><strong>Topología en Anillo:</strong> Cada dispositivo está conectado a dos dispositivos adyacentes, formando un anillo. Puede ser rápida pero es susceptible a fallos en el anillo.</li>
+            <li><strong>Topología en Malla:</strong> Cada dispositivo está conectado a varios otros, ofreciendo alta redundancia y resiliencia, pero puede ser costosa de implementar.</li>
+        </ul>
+        
+        <h2>Normas de cableado estructurado y la funcionalidad de cada una de ellas</h2>
+        <ul>
+            <li><strong>Categoría 5e (Cat 5e):</strong> Soporta velocidades de hasta 1 Gbps (Gigabit Ethernet). Utilizada para redes locales (LAN) de alta velocidad.</li>
+            <li><strong>Categoría 6 (Cat 6):</strong> Soporta velocidades de hasta 10 Gbps en distancias cortas (hasta 55 metros). Mejora el rendimiento respecto al Cat 5e y reduce la interferencia.</li>
+            <li><strong>Categoría 6a (Cat 6a):</strong> Soporta velocidades de 10 Gbps a distancias de hasta 100 metros. Tiene mejor aislamiento para evitar interferencias.</li>
+            <li><strong>Categoría 7 (Cat 7):</strong> Ofrece soporte para 10 Gbps y frecuencias más altas (hasta 600 MHz), con mejor blindaje para reducir interferencias.</li>
+        </ul>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
